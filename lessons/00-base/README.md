@@ -1,6 +1,6 @@
-# Course Name
+# Create a Landing Page with CSS Grid and Flexbox
 
-> supporting files for the course
+> supporting files for the egghead course
 
 ## Development Scripts
 

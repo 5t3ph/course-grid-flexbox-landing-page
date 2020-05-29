@@ -1,0 +1,63 @@
+$typography-variants: h1, h2, h3, h4;
+
+@each $type in $typography-variants {
+  #{$type},
+  .#{$type} {
+    font-family: $headline-font-family;
+    font-weight: 700;
+    line-height: 1.15;
+    margin-bottom: 0.65em;
+  }
+}
+
+h1,
+.h1 {
+  font-size: $h1-font-size;
+  font-weight: 900;
+}
+
+h2,
+.h2 {
+  font-size: $h2-font-size;
+}
+
+h3,
+.h3 {
+  font-size: $h3-font-size;
+}
+
+h4,
+.h4 {
+  font-size: $h4-font-size;
+  color: theme-color(gray);
+}
+
+p,
+li {
+  font-size: $text-font-size;
+}
+
+p {
+  margin: 0 0 1rem;
+}
+
+article > ul > li + li {
+  margin-top: 1rem;
+}
+
+strong {
+  font-weight: $strong-font-weight;
+}
+
+a:not(.button) {
+  color: $link-color;
+}
+
+.lead {
+  font-family: $headline-font-family;
+  font-size: $lead-font-size;
+  color: theme-color(gray);
+  letter-spacing: 0.01em;
+  margin-bottom: 1em;
+  line-height: 1.3;
+}

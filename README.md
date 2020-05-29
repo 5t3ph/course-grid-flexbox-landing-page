@@ -1,4 +1,4 @@
-# Course
+# Create a Landing Page with CSS Grid and Flexbox
 
 All scripts are run in the root package.
 

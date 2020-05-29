@@ -1,7 +1,7 @@
 {
-  "slug": "course",
+  "slug": "grid-flexbox-landing-page",
   "private": true,
-  "repository": "",
+  "repository": "https://github.com/5t3ph/course-grid-flexbox-landing-page",
   "workspaces": [
     "lessons/*"
   ],
