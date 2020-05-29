@@ -1,0 +1,8 @@
+.sass-cache
+.sass-cache/*
+*.scssc
+*.log
+node_modules
+public
+.DS_Store
+
