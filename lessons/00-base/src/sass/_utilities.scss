@@ -28,10 +28,6 @@ $alignments: center !default;
   }
 }
 
-$spacing-sides: t, b, x, y;
-
-@each $side in $spacing-sides {
-  .m#{$side}-none {
-    margin: 0;
-  }
+.mb-none {
+  margin-bottom: 0;
 }
