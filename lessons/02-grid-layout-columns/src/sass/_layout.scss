@@ -1,0 +1,27 @@
+.navbar {
+  justify-content: space-between;
+  padding: $unit * 2 $unit * 3;
+}
+
+.display-flex {
+  display: flex;
+
+  &--wrap {
+    flex-wrap: wrap;
+  }
+}
+
+.display-grid {
+  display: grid;
+  grid-gap: $unit * 2;
+
+  &--columns {
+    grid-auto-flow: column;
+  }
+}
+
+.list-unstyled {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}

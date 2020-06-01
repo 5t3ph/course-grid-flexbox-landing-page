@@ -1,0 +1,40 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 10ch;
+  min-height: 44px;
+  padding: 0 1.5em;
+  transition: 180ms all ease-in-out;
+  border: none;
+  border-radius: $border-radius/2;
+  background-color: theme-color(primary);
+  color: #fff;
+  font-family: $headline-font-family;
+  font-size: 1.125rem;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px scale-color(theme-color(primary), $lightness: -30%);
+  }
+
+  &--secondary {
+    background-color: theme-color(secondary);
+
+    &:focus {
+      box-shadow: 0 0 0 3px
+        scale-color(theme-color(secondary), $lightness: -40%);
+    }
+  }
+
+  &--small {
+    min-height: 34px;
+    padding: 0.25em 0.75em;
+    font-size: 1rem;
+  }
+}
