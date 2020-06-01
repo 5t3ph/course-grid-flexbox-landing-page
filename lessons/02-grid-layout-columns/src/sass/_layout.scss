@@ -1,8 +1,16 @@
+// Components
 .navbar {
   justify-content: space-between;
   padding: $unit * 2 $unit * 3;
 }
 
+header {
+  @media (min-width: 60rem) {
+    grid-auto-flow: column;
+  }
+}
+
+// Display
 .display-flex {
   display: flex;
 
@@ -20,6 +28,13 @@
   }
 }
 
+.container {
+  max-width: 80rem;
+  padding-left: $unit * 3;
+  padding-right: $unit * 3;
+}
+
+// Utilities
 .list-unstyled {
   list-style: none;
   margin: 0;
