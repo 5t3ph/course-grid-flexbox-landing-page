@@ -4,7 +4,9 @@
   padding: $unit * 2 $unit * 3;
 }
 
-header {
+header.display-grid {
+  grid-gap: $unit * 4;
+
   @media (min-width: 60rem) {
     grid-auto-flow: column;
   }
@@ -26,6 +28,10 @@ header {
   &--columns {
     grid-auto-flow: column;
   }
+}
+
+.alignitems--center {
+  align-items: center;
 }
 
 .container {
