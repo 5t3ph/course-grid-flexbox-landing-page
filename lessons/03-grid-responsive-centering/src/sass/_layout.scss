@@ -12,6 +12,24 @@ header.display-grid {
   }
 }
 
+figure {
+  margin: 0;
+  height: 90vh;
+  background-color: scale-color(theme-color(primary), $lightness: 30%);
+
+  img {
+    object-fit: cover;
+    max-height: 60vh;
+    width: 80vw;
+    border-radius: $unit;
+    box-shadow: 2px 10px 20px 0px rgba(black, 0.3);
+  }
+
+  figcaption {
+    color: #fff;
+  }
+}
+
 // Display
 .display-flex {
   display: flex;
@@ -27,6 +45,10 @@ header.display-grid {
 
   &--columns {
     grid-auto-flow: column;
+  }
+
+  &--placecenter {
+    place-content: center;
   }
 }
 
