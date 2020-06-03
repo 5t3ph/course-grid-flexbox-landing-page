@@ -1,0 +1,33 @@
+$alignments: center !default;
+
+@each $alignment in $alignments {
+  .text-align--#{$alignment} {
+    text-align: #{$alignment};
+
+    @if ($alignment == "center") {
+      > a {
+        align-self: center !important;
+      }
+    }
+  }
+}
+
+.mx-auto {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@each $key, $unit in $spacing {
+  .my-#{$key} {
+    margin-top: $unit;
+    margin-bottom: $unit;
+  }
+
+  .mt-#{$key} {
+    margin-top: $unit;
+  }
+}
+
+.mb-none {
+  margin-bottom: 0;
+}
