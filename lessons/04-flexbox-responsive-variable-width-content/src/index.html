@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Grid / Flexbox Landing Page</title>
+    <meta name="description" content="" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✍️</text></svg>"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="navbar display-flex display-flex--wrap">
+      <span class="h3">✍️ NoteTaker</span>
+      <nav>
+        <ul class="list-unstyled display-grid display-grid--columns">
+          <li>
+            <a href="javascript:;" class="button button--small">Pre-Order</a>
+          </li>
+          <li><a href="javascript:;">About</a></li>
+          <li><a href="javascript:;">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <header class="my-lg display-grid container mx-auto alignitems--center">
+      <div>
+        <h1 class="mb-none">Take Notes Like Never Before</h1>
+        <p class="lead mt-sm mb-none">
+          Pre-order what will be the #1 note-taking app on your preferred device
+          today!
+        </p>
+      </div>
+      <aside aria-labelledby="subscribe1">
+        <h2 id="subscribe1" class="h3">Subscribe to Launch Updates</h2>
+        <form action="/" class="display-grid">
+          <label for="email1">Enter your email:</label>
+          <input id="email1" name="email" type="email" />
+          <button class="button button--secondary" type="submit">
+            Subscribe
+          </button>
+        </form>
+      </aside>
+    </header>
+    <figure class="display-grid display-grid--placecenter">
+      <img src="/images/image.jpg" alt="Scrolling through NoteTaker" />
+      <figcaption class="h3 text-align--center mt-md mb-none">
+        NoteTaker in action
+      </figcaption>
+    </figure>
+    <main>
+      <h3>Features</h3>
+      <ul>
+        <li>
+          <strong class="lead">Multi-device Sync</strong> Never lose a note
+        </li>
+        <li>
+          <strong class="lead">Calendar View</strong> Plan, remind, accomplish
+        </li>
+        <li>
+          <strong class="lead">Family Sharing</strong> One hub for #allthethings
+        </li>
+      </ul>
+      <aside aria-labelledby="reviews">
+        <h3 id="reviews">Beta Tester Reviews</h3>
+        <blockquote>
+          <img
+            src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?h=350&auto=compress&cs=tinysrgb"
+            alt=""
+          />
+          <p>This is going to be my new favorite app!</p>
+          <footer><cite>- Sarah Lightfoot</cite></footer>
+        </blockquote>
+        <blockquote>
+          <img src="https://randomuser.me/api/portraits/women/2.jpg" alt="" />
+          <p>I can't wait for this to be a reality.</p>
+          <footer><cite>- @notesbae</cite></footer>
+        </blockquote>
+        <blockquote>
+          <img
+            src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&s=a72ca28288878f8404a795f39642a46f"
+            alt=""
+          />
+          <p>There's no better place to keep track of my bitcoin strategy.</p>
+          <footer><cite>- Reformed Moleskin User</cite></footer>
+        </blockquote>
+      </aside>
+    </main>
+    <section>
+      <h2>Subscribe to Be Notified When We Launch</h2>
+      <p class="lead">You're going to want in on this!</p>
+      <form action="/">
+        <label for="email2">Enter your email:</label>
+        <input id="email2" name="email" type="email" />
+        <button class="button button--secondary" type="submit">
+          Subscribe
+        </button>
+      </form>
+    </section>
+    <footer>
+      <p>&copy; 2020 ✍️ NoteTaker</p>
+      <ul>
+        <li>
+          <a href="javascript:;" class="button button--small">Pre-Order</a>
+        </li>
+        <li><a href="javascript:;">About</a></li>
+        <li><a href="javascript:;">Contact</a></li>
+        <li><a href="javascript:;">Careers</a></li>
+      </ul>
+      <ul>
+        <li><a href="javascript:;">Terms & Conditions</a></li>
+        <li><a href="javascript:;">Privacy Policy</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>
