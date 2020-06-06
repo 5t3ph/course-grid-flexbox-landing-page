@@ -30,12 +30,28 @@ figure {
   }
 }
 
+.site-footer {
+  background-color: scale-color(theme-color(gray), $lightness: 60%);
+  padding-top: $unit * 2;
+  padding-bottom: $unit * 2;
+
+  ul li + li {
+    margin-top: $unit;
+  }
+}
+
 // Display
 .display-flex {
   display: flex;
 
   &--wrap {
     flex-wrap: wrap;
+  }
+
+  &--row-gap {
+    > * {
+      margin: $unit !important;
+    }
   }
 }
 
@@ -54,6 +70,10 @@ figure {
 
 .alignitems--center {
   align-items: center;
+}
+
+.justifycontent-center {
+  justify-content: center;
 }
 
 .container {

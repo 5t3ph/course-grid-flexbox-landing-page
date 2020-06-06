@@ -93,10 +93,13 @@
         </blockquote>
       </aside>
     </main>
-    <section>
+    <section class="display-grid display-grid--placecenter text-align--center">
       <h2>Subscribe to Be Notified When We Launch</h2>
       <p class="lead">You're going to want in on this!</p>
-      <form action="/">
+      <form
+        action="/"
+        class="display-flex display-flex--row-gap display-flex--wrap justifycontent-center alignitems--center"
+      >
         <label for="email2">Enter your email:</label>
         <input id="email2" name="email" type="email" />
         <button class="button button--secondary" type="submit">
@@ -104,9 +107,11 @@
         </button>
       </form>
     </section>
-    <footer>
-      <p>&copy; 2020 ✍️ NoteTaker</p>
-      <ul>
+    <footer
+      class="site-footer display-flex display-flex--row-gap display-flex--wrap justifycontent-center mt-lg"
+    >
+      <p><span class="h3">✍️ NoteTaker</span><br />&copy; 2020</p>
+      <ul class="list-unstyled">
         <li>
           <a href="javascript:;" class="button button--small">Pre-Order</a>
         </li>
@@ -114,7 +119,7 @@
         <li><a href="javascript:;">Contact</a></li>
         <li><a href="javascript:;">Careers</a></li>
       </ul>
-      <ul>
+      <ul class="list-unstyled">
         <li><a href="javascript:;">Terms & Conditions</a></li>
         <li><a href="javascript:;">Privacy Policy</a></li>
       </ul>
