@@ -1,8 +1,8 @@
 # Create a Landing Page with CSS Grid and Flexbox
 
-## Choose Between Grid or Flexbox for CSS Layout
+## Responsively Center an Image and Caption with CSS Grid
 
-> Learn the fundamental difference between CSS grid and flexbox layout, and create utility classes for each display value. Then begin to apply these concepts to style the landing page navigation.
+> Grid offers us the easiest method to responsively center content. We'll use the grid property `place-content` to center the contents of `figure` to showcase our fictional product in use. Additionally, we'll learn about `object-fit` which is a modern technique that allows inline images to scale responsively within defined dimensions without distortion.
 
 ## Development Scripts
 

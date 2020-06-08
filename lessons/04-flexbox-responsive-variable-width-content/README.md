@@ -1,8 +1,8 @@
 # Create a Landing Page with CSS Grid and Flexbox
 
-## Choose Between Grid or Flexbox for CSS Layout
+## Use Flexbox to Responsively Layout Variable-Width Content
 
-> Learn the fundamental difference between CSS grid and flexbox layout, and create utility classes for each display value. Then begin to apply these concepts to style the landing page navigation.
+> See how to use flexbox to layout variable-width content in columns, and take advantage of `justify-content` to keep flex children center-aligned on smaller viewports. We'll also learn how `margin` can be applied to resolve for lack of a well-supported `gap` property in flexbox. At the end of the lesson, we'll have styled both the "Subscribe" section and the site footer.
 
 ## Development Scripts
 

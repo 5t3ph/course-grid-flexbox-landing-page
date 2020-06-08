@@ -2,7 +2,7 @@
 
 ## Choose Between Grid or Flexbox for CSS Layout
 
-> Learn the fundamental difference between CSS grid and flexbox layout, and create utility classes for each display value. Then begin to apply these concepts to style the landing page navigation.
+> Learn the fundamental difference between CSS grid and flexbox layout, and create utility classes for each `display` value. Then begin to apply and expand these concepts to style the landing page navigation.
 
 ## Development Scripts
 

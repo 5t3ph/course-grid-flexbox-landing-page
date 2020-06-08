@@ -1,8 +1,8 @@
 # Create a Landing Page with CSS Grid and Flexbox
 
-## Choose Between Grid or Flexbox for CSS Layout
+## Use CSS Grid auto-fit For Responsive Column Layout
 
-> Learn the fundamental difference between CSS grid and flexbox layout, and create utility classes for each display value. Then begin to apply these concepts to style the landing page navigation.
+> We'll complete our landing page styles by using CSS grid `auto-fit` in conjunction with the grid functions `repeat` and `minmax`. The result will be a responsive column layout that wraps when content shrinks below the minimum acceptable width. We'll also see how grid and flexbox can be used together by using flexbox to align the content of grid items. Finally, we'll view the fully completed landing page and reflect on how and why grid and flexbox were each used.
 
 ## Development Scripts
 
