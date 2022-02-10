@@ -23,7 +23,7 @@
     "browser-sync": "^2.26.3",
     "copyfiles": "^2.1.0",
     "cssnano": "^4.1.10",
-    "node-sass": "^4.11.0",
+    "node-sass": "^7.0.0",
     "onchange": "^7.0.1",
     "postcss-cli": "^7.1.1"
   },
